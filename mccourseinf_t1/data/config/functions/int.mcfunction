@@ -54,7 +54,7 @@
         scoreboard players add res7 ex4 0
         scoreboard players add res8 ex4 0
 
-    execute if score FirstTimeDatapack config matches 0 run function config:aux
+    execute if score FirstTimeDatapack config matches 0 run function config:aux_
 
 ## Call main function ##
     function config:main
