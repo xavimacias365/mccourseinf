@@ -97,7 +97,7 @@
     tellraw @s {"text":"\n- Ejercicio 4 -","color":"yellow"}
     function to_do:4
 
-    execute if score res1 ex4 matches 2 run tellraw @s {"text":"Input 1 Correcto.","color":"green"}
+    execute if score res1 ex4 matches 4 run tellraw @s {"text":"Input 1 Correcto.","color":"green"}
     execute if score res2 ex4 matches 1 run tellraw @s {"text":"Input 2 Correcto.","color":"green"}
     execute if score res3 ex4 matches 27 run tellraw @s {"text":"Input 3 Correcto.","color":"green"}
     execute if score res4 ex4 matches 1 run tellraw @s {"text":"Input 4 Correcto.","color":"green"}
